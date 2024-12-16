@@ -2,9 +2,9 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    [SerializeField] private float movementSpeed = 5;
-    [SerializeField] private float jumpSpeed = 5;
-    [SerializeField] private float mouseSensitivity = 500f;
+    [SerializeField] private float movementSpeed;
+    [SerializeField] private float jumpSpeed;
+    [SerializeField] private float mouseSensitivity; 
 
     private CharacterController controller;
     private const float gravity = -9.81f;
