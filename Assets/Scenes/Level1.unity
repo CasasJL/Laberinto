@@ -1818,7 +1818,7 @@ PrefabInstance:
       objectReference: {fileID: 11400000, guid: 165440ae396f73c449f1c2c1a8c9624c, type: 2}
     - target: {fileID: -8637747628876489514, guid: f489aed864f1a3c49b7083d7f2bb58a7, type: 3}
       propertyPath: canOpenManually
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4728459828791679602, guid: f489aed864f1a3c49b7083d7f2bb58a7, type: 3}
       propertyPath: m_LocalScale.z
@@ -3125,7 +3125,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd449b408ecca3c48931e7edde4320ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mouseSensitivity: 10
+  mouseSensitivity: 4
   movementSpeed: 5
   jumpSpeed: 5
   interactionMaxDistance: 2
