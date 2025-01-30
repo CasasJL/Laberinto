@@ -20,6 +20,8 @@ public class Player : MonoBehaviour
     {
         controller = GetComponent<CharacterController>();
         playerCamera = GetComponentInChildren<Camera>();
+
+        Cursor.lockState = CursorLockMode.Locked;
     }
 
     void Update()
